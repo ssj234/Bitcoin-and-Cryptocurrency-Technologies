@@ -1,3 +1,10 @@
+
+/**
+ * 一个交易被包装为一个唯一的标识符
+ * 包装交易
+ * @author shisj
+ *
+ */
 final public class Transaction {
     final int id;
 
