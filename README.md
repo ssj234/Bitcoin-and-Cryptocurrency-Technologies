@@ -1,5 +1,5 @@
 # Bitcoin and Cryptocurrency Technologies
-Course about BitCoin and Cryptocurrency  from Princeton
+Course about BitCoin and Cryptocurrency Technologies from Princeton
 
 # Course
 
