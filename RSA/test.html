@@ -11,6 +11,23 @@
 
 	<script>
 		var pair = RSA.generate(32);
+		/*
+		for(var i=1;i<100000;i++){
+		   if(bigInt(3).modPow(3*i,3127) == 3){
+				console.log(i+"  " + bigInt(27).modPow(i,3127));
+			}
+		}*/
+		// 公钥是{7,187}  下面开始算私钥
+		//99 的 7次方 mod 187 等于 176
+		console.log("99 的 7次方 mod 187 等于 176 "+bigInt(99).modPow(7,187));
+		for(var i=1;i<1000;i++){
+		   if(bigInt(3).modPow(7*i,187) == 3){
+				if(bigInt(9).modPow(7*i,187) == 9){
+					console.log("d 等于 "+i+"  176的d次方 mod 187 ：" + bigInt(176).modPow(i,187));
+				}
+			}
+		}
+
 	</script>
 </body>
 </html>
